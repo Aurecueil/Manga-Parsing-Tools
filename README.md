@@ -66,7 +66,7 @@ A collection of Python scripts for organizing, renaming, and processing manga ch
 9. Run **`initial_prepare.py`** to:
     - Perform light margin removal.
     - The program will ask whether to process each series.
-    - If a chapter is unassigned to a volume, specify the number of the first chapter with no volume, or provide `9000` for finished works.
+    - If a chapter is unassigned to a volume, specify the number of the first chapter with no volume. (this will not override volume info in folder names, so write "1" to put all chapter with no volume as vol X)
     - The program may ask for volume assignments for chapters it cannot automatically determine.
 
 10. Run **`last_step.py`** to:
